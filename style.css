@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2? family= Montserrat & display=swap');
+
+body {
+font-size: 16px ;
+font-weight: normal;
+font-family: 'Montserrat', sans-serif;
+background: #F4FFF7
+
+}
+.avatar {
+width: 200px;
+border-radius: 28px;
+border: 2px solid black;
+box-shadow: 4px 4px 14px rgb(0,0,0,0.25);
+}
+
+.info {
+margin-bottom: 20px;
+display: flex;
+}
+@media (max-width: 800px) {
+.info {
+  text-align: center;
+display: block;
+}
+}
+
+.info-text {
+  margin-left: 40px;
+  
+}
+.info-text h4 {
+  margin-bottom: 10px; 
+ }
+
+a {
+text-decoration: none;
+color: black;
+}
+a:hover{
+  text-decoration: underline;
+}
+a:active {
+  color: blue;
+}
+
+/*info*/
+/*letter-spacing: 0.2px;*/
+/*word-spacing: 5px;*/
+
+
+.container {
+max-width: 900px;
+margin: auto;
+padding-top: 30px;
+}
+
+.card {
+border-radius: 20px;
+margin-bottom: 20px;
+padding: 15px 20px;
+}
+
+/* background: #fff9dc;
+ background: #e5ffe7;
+ */
+
+.bg-yellow {
+  background: #fff9dc;
+}
+.bg-green {
+  background: #e5ffe7;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.list {
+  padding: 0 20px;
+}
+.list li {
+  margin-bottom: 5px;
+}
+.link-list {
+  padding: 0 20px;
+}
+.contact h2 {
+  text-align: center;
+}
+
+.form-group label{
+font-size: 14px;
+display: block;
+}
+.form-group input ,
+.form-group textarea
+{
+width: 100%;
+box-sizing: border-box;
+border: none;   
+border-bottom:1px solid #ccc ;
+color: black;
+padding: 15px 0 10px;
+outline: none;
+font-size: inherit;
+background: transparent;
+}
+.row {
+  display: flex;
+margin-bottom: 20px;
+}
+.row > .form-group {
+  width: 50%;
+  margin-right: 20px;
+}
+.row > .form-group:last-child {
+  margin-right: 0;
+}
+
+.btn {
+  background: black;
+color: white;
+border: none;
+font-family: inherit;
+cursor: pointer;
+padding: 15px 40px;
+border-radius: 40px;
+margin-top: 7px;
+}
+.btn:hover {
+  opacity: 0.9;
+}
+
+.ramka {
+  border: 1px solid rgb(180, 180, 180);
+  padding: 10px;
+  
+  font-family: inherit;
+}
